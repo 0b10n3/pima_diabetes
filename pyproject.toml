@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pima-diabetes"
+version = "0.1.0"
+description = ""
+authors = ["Ob1On3 <silvasmath@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pima_diabetes"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
